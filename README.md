@@ -21,10 +21,10 @@ Capstone project
 - [x] Bootstrap include
 - [x] Wire Frame [](wireframe.png)
 
-![alt text](wireframe/1.png)
-![alt text](wireframe/2.png)
-![alt text](wireframe/3.png)
-![alt text](wireframe/4.png)
+![wireframe image](wireframe/1.png)
+![wireframe image](wireframe/2.png)
+![wireframe image](wireframe/3.png)
+![wireframe image](wireframe/4.png)
 
 ## Contact
 
