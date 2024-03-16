@@ -1,0 +1,12 @@
+.card {
+    width: 18rem;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
