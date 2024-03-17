@@ -5,8 +5,11 @@
     margin-bottom: 10px;
   }
 
-  .container::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
+  }
+  #project-p {
+    background-image: url(Img/computer.jpg);
   }
