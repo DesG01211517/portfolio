@@ -17,31 +17,55 @@
     <br />
     <br />
     <br />
-    <div
-      id="nav"
-      class="card float right"
-      style="background-color: rgb(0, 255, 208)"
-    >
-      <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <div class="card"></div>
+    //navbar
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >SCOOTERS AVAILABLE</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESERVE NOW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RENT NOW</a>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
       </div>
-      <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+    </nav>
+    <button
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasBottom"
+      aria-controls="offcanvasBottom"
+    >
+      Toggle bottom offcanvas
+    </button>
+
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="offcanvasBottom"
+      aria-labelledby="offcanvasBottomLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+          Offcanvas bottom
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
+      <div class="offcanvas-body small">...</div>
     </div>
 
     <script
