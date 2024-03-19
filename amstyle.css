@@ -1,3 +1,8 @@
 #about-body {
-    background-image: url(Img/matrix.jpg);
+    background-image: url(Img/background.jpg);
+    background-size: cover;
   };
+  transparent-card {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none;
+  }
