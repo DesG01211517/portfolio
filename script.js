@@ -1,6 +1,6 @@
-
-
-
+let allElms = [
+    redScoot, blackScoot, blueScoot, grayScoot
+]
 
 blackScoot.onclick = function () {
     blackScoot.textContent = "RESERVED";
@@ -22,3 +22,10 @@ grayScoot.onclick = function () {
     //alert("You clicked the Rent Me button!");
 }
 
+resetButton.onclick = function () {
+    for (let i=0; i<4; i++) {
+        let a = allElms[i];
+        a.textContent = "RENT ME!!";
+    }
+}
+//console.log(a)
