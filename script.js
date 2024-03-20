@@ -1,21 +1,24 @@
 
 
 
-//let scootRental = document.getElementById("blackScooter"); 
 
 blackScoot.onclick = function () {
-    alert("You clicked the Rent Me button!");
+    blackScoot.textContent = "RESERVED";
+    //alert("You clicked the Rent Me button!");
 }
-//console.log(blackScoot);
 
 redScoot.onclick = function () {
-    alert("You clicked the Rent Me button!");
+    redScoot.textContent = "RESERVED";
+    //alert("You clicked the Rent Me button!");
 }
 
 blueScoot.onclick = function () {
-    alert("You clicked the Rent Me button!");
+    blueScoot.textContent = "RESERVED";
+    //alert("You clicked the Rent Me button!");
 }
 
 grayScoot.onclick = function () {
-    alert("You clicked the Rent Me button!");
+    grayScoot.textContent = "RESERVED";
+    //alert("You clicked the Rent Me button!");
 }
+
