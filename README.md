@@ -15,8 +15,7 @@ Capstone project
 
 ## Built With
 
-\_ HTML
-
+- HTML
 - CSS
 - Bootstrap
 - JavaScript
