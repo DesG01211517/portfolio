@@ -41,3 +41,6 @@ Author: Desmon Garrison email: desmongarrison2@gmail.com
 - https://www.w3schools.com/tags/default.asp
 - https://www.quirksmode.org/js/boolean.html
 - https://getbootstrap.com/
+- My Instructor: Robert McCreary
+- My classmates: Louis Perkins, Nick Smith, Antonio Brown, Walter Silas
+- 
